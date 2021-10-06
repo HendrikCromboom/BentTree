@@ -45,7 +45,7 @@ namespace BentTree.Main
             str = new string(arr);
             return str;
         }
-        private static string RemoveDoubleWhiteSpaces(string str)
+        private static string RemoveDuplicateWhiteSpaces(string str)
         {
             var list = str.Split(' ').Where(s => !string.IsNullOrWhiteSpace(s));
             str = string.Join(" ", list);
