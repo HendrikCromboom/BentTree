@@ -19,5 +19,9 @@ namespace BentTree.Main
             }
             return result;
         }
+        public static int Accuracy(int size)
+        {
+
+        }
     }
 }
